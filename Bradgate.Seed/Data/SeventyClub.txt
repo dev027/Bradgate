@@ -1,0 +1,44 @@
+﻿01/10/2018,Anne Morris,Mark Wiggins,72.76,Pairs
+06/08/2018,Nick Daniels,Phil Watts,72.76,Hercock Trophy : Week 8
+30/07/2018,Michael Ellerby,Harry Gordon,73.95,Hercock Trophy : Week 7
+30/04/2018,Paul Bowyer,Sue Bowyer,70.61,Pairs
+16/04/2018,Peter Wells,Graham Conway,70.18,Pairs
+02/10/2017,Lucy Pathan,#Garry Whiteman,74.04,Pairs
+18/09/2017,Linda Stone,Anne Wright,71.31,Pairs
+12/06/2017,Linda Stone,Anne Wright,71.15,CBC Sim Pairs
+03/04/2017,Anne Wright,Steve Wright,76.81,Pairs
+23/11/2015,Brian Stockdale,Sheila Stockdale,72.96,Bradgate Plate : Week 4
+07/09/2015,Lucy Pathan,Mike Ayers,71.02,Pairs
+07/09/2015,Paul Emberton,Val Rees,72.16,Pairs
+27/07/2015,#Jim Mason,#Dick Pathan,74.48,Hercock Trophy : Week 6
+08/06/2015,Nick Daniels,Steve Wright,73.08,Pairs
+16/02/2015,Brian Stockdale,Sheila Stockdale,70.22,Tyler Trophy : Week 3
+12/01/2015,Howard Stevens,Phil Watts,73.24,Pairs
+17/11/2014,Malcolm Boyack,Steve Wright,75.32,Bradgate Plate : Week 3
+19/08/2013,Richard Rees,Diana Bowden,75.20,Hercock Trophy : Week 10
+15/07/2013,Mary France,Pam Smith,71.65,Hercock Trophy : Week 5
+25/02/2013,Chris Allen,Colin Barfield,74.20,Tyler Trophy : Week 4
+26/11/2012,Tony France,David Twells,71.07,Bradgate Plate : Week 4
+05/11/2012,Tony France,David Twells,70.35,Bradgate Plate : Week 1
+08/10/2012,Howard Stevens,Phil Watts,73.56,Pairs
+12/03/2012,Win Stocker,Steve Wright,70.51,Pairs
+12/12/2011,Pat Simpson,Barrie Parker,71.92,Pairs
+15/02/2010,Tony France,David Twells,74.32,Tyler Trophy : Week 3
+16/11/2009,Howard Stevens,Phil Watts,72.21,Bradgate Plate : Week 3
+12/10/2009,Steve Wright,Win Stocker,70.09,Thompson Trophy
+15/06/2009,Pat Simpson,Barrie Parker,70.08,Hercock Trophy : Week 2
+01/06/2009,Mary France,Howard Stevens,71.15,Pairs
+02/03/2009,Tracey Jarvis,Gary Jones,74.24,Tyler Trophy : Week 4
+01/10/2007,Tracey Jarvis,Gary Jones,70.27,Pairs
+01/06/2007,Betty Smith,Mary France,73.18,Pairs
+07/05/2007,Tracey Jarvis,Gary Jones,76.90,Pairs
+08/01/2007,Gary Jones,Pat Simpson,74.90,Pairs
+21/08/2006,Pam Leeson,Howard Stevens,74.32,Hercock Trophy : Week 10
+07/08/2006,Pam Leeson,Howard Stevens,71.82,Hercock Trophy : Week 8
+03/07/2006,Mary France,Howard Stevens,75.06,Hercock Trophy : Week 3
+05/06/2006,Kath Stevenson,Terry Stevenson,72.32,Pairs
+03/04/2006,Joan Hope,Jo Northam,72.40,Pairs
+16/01/2006,Mary France,Howard Stevens,72.29,Patterson Pots
+18/04/2005,Brenda Harris,Mary France,74.27,Pairs
+21/03/2005,Howard Stevens,Steve Wright,70.14,Davis Mens Pairs
+02/02/2004,Mike Cockayne,Don Walker,72.54,Tyler Trophy : Week 1

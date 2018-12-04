@@ -4,4 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Bradgate.SeventyClub.Domain\Bradgate.SeventyClub.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

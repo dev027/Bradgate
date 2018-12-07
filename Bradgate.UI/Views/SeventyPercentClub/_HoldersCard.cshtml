@@ -1,0 +1,28 @@
+﻿@model Bradgate.UI.ViewModels.SeventyPercentClub.HoldersViewModel
+
+<!-- START card -->
+<div class="card">
+    <div class="card-body text-center bg-center" style="background-image: url('/img/bg3.jpg');">
+        <div class="row">
+            <div class="col-12 text-white">
+                <h2 class="m-0 mt-5">@Model.Title.Heading</h2>
+                <h3 class="m-0">
+                    @Model.Text.Holders
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="card-body text-center bg-gray-darker">
+        <div class="row">
+            <div class="col-6">
+                <p class="m-0">@Model.Title.Score</p>
+                <h3 class="m-0">@Model.Text.Score</h3>
+            </div>
+            <div class="col-6">
+                <p class="m-0">@Model.Title.HeldSince</p>
+                <h3 class="m-0">@Model.Text.HeldSince</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END card -->

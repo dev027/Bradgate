@@ -1,0 +1,15 @@
+﻿@model Bradgate.UI.ViewModels.SeventyPercentClub.HoldersViewModel
+
+<div class="content-wrapper">
+    <div class="content-heading">
+        <div>
+            The 70% Club
+            <small>Pairs that have score 70% or more on a Monday evening</small>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-6 offset-xl-3">
+            @Html.Partial(MVC.SeventyPercentClub.Views.ViewNames._HoldersCard, Model)
+        </div>
+    </div>
+</div>

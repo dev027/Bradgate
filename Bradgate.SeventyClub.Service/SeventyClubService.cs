@@ -5,7 +5,6 @@ using Bradgate.SeventyClub.Domain.Exceptions;
 using Bradgate.SeventyClub.Interface;
 using Bradgate.SeventyClub.Service.Utilities.Extensions.MapperExtensions;
 using System;
-using System.Collections.Generic;
 
 namespace Bradgate.SeventyClub.Service
 {
@@ -89,21 +88,15 @@ namespace Bradgate.SeventyClub.Service
         /// <summary>
         /// Get the current holders of the Pam Leeson Trophy
         /// </summary>
-        /// <returns>List of player names</returns>
+        /// <returns>70% Club Entry of Holders</returns>
         /// <exception cref="SeventyClubServiceException"></exception>
-        public IList<string> GetPamLeesonTrophyHolders()
+        public SeventyPercentClubEntry GetPamLeesonTrophyHolders()
         {
             try
             {
                 using (var data = new SeventyClubData())
                 {
-                    SeventyPercentClubEntryDto dto = data.GetPamLeesonTrophyHolders();
-
-                    return new List<string>
-                    {
-                        dto.Player1,
-                        dto.Player2
-                    };
+                    return data.GetPamLeesonTrophyHolders().MapToDomain();
                 }
             }
             catch (Exception ex)

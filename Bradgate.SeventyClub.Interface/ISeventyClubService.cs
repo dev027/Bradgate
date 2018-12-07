@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using Bradgate.SeventyClub.Domain;
 using Bradgate.SeventyClub.Domain.Exceptions;
 
@@ -38,8 +37,8 @@ namespace Bradgate.SeventyClub.Interface
         /// <summary>
         /// Get the current holders of the Pam Leeson Trophy
         /// </summary>
-        /// <returns>List of player names</returns>
+        /// <returns>70% Club Entry of Holders</returns>
         /// <exception cref="SeventyClubServiceException"></exception>
-        IList<string> GetPamLeesonTrophyHolders();
+        SeventyPercentClubEntry GetPamLeesonTrophyHolders();
     }
 }

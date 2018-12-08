@@ -5,6 +5,7 @@ using Bradgate.SeventyClub.Domain.Exceptions;
 using Bradgate.SeventyClub.Interface;
 using Bradgate.SeventyClub.Service.Utilities.Extensions.MapperExtensions;
 using System;
+using System.Linq;
 
 namespace Bradgate.SeventyClub.Service
 {
@@ -68,12 +69,9 @@ namespace Bradgate.SeventyClub.Service
                 {
                     var entries = data.GetClub();
 
-                    var club = new SeventyPercentClub();
+                    var clubEntries = entries.Select(entry => entry.MapToDomain()).ToList();
 
-                    foreach (var entry in entries)
-                    {
-                        club.Entries.Add(entry.MapToDomain());
-                    }
+                    var club = new SeventyPercentClub(clubEntries);
 
                     return club;
                 }

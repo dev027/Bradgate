@@ -40,7 +40,7 @@ namespace Bradgate.SeventyClub.Data
         public IList<SeventyPercentClubEntryDto> GetClub()
         {
             return _context.SeventyPercentClubEntries
-                .OrderBy(x => x.Date)
+                .OrderByDescending(x => x.Date)
                 .ToList();
         }
 

@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using Bradgate.SeventyClub.Interface;
 using Bradgate.SeventyClub.Service;
-using Bradgate.UI.ViewModels.SeventyPercentClub;
+using Bradgate.UI.ViewModels.SeventyPercentClub.Index;
 
 namespace Bradgate.UI.Controllers
 {
@@ -18,8 +18,9 @@ namespace Bradgate.UI.Controllers
         public virtual ActionResult Index()
         {
             var holders = _service.GetPamLeesonTrophyHolders();
+            var club = _service.GetClub();
 
-            var model = new HoldersViewModel(holders);
+            var model = new SeventyPercentClubViewModel(holders, club);
 
             return View(model);
         }

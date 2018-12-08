@@ -230,7 +230,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\SeventyPercentClub\HoldersViewModel.cs" />
+    <Compile Include="ViewModels\SeventyPercentClub\Index\VmEntries.cs" />
+    <Compile Include="ViewModels\SeventyPercentClub\Index\VmHolders.cs" />
+    <Compile Include="ViewModels\SeventyPercentClub\Index\VmEntry.cs" />
+    <Compile Include="ViewModels\SeventyPercentClub\Index\SeventyPercentClubViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
@@ -510,6 +513,8 @@
     <Content Include="Views\Shared\_Footer.cshtml" />
     <Content Include="Views\SeventyPercentClub\Index.cshtml" />
     <Content Include="Views\SeventyPercentClub\_HoldersCard.cshtml" />
+    <Content Include="Views\SeventyPercentClub\_SeventyPercentClubEntries.cshtml" />
+    <Content Include="Views\SeventyPercentClub\_SeventyPercentClubEntry.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

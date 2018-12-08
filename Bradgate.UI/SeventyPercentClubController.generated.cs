@@ -96,9 +96,13 @@ namespace Bradgate.UI.Controllers
             public class _ViewNamesClass
             {
                 public readonly string _HoldersCard = "_HoldersCard";
+                public readonly string _SeventyPercentClubEntries = "_SeventyPercentClubEntries";
+                public readonly string _SeventyPercentClubEntry = "_SeventyPercentClubEntry";
                 public readonly string Index = "Index";
             }
             public readonly string _HoldersCard = "~/Views/SeventyPercentClub/_HoldersCard.cshtml";
+            public readonly string _SeventyPercentClubEntries = "~/Views/SeventyPercentClub/_SeventyPercentClubEntries.cshtml";
+            public readonly string _SeventyPercentClubEntry = "~/Views/SeventyPercentClub/_SeventyPercentClubEntry.cshtml";
             public readonly string Index = "~/Views/SeventyPercentClub/Index.cshtml";
         }
     }

@@ -1,0 +1,20 @@
+﻿@model Bradgate.UI.ViewModels.SeventyPercentClub.Index.VmEntries
+
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+        <tr class="text-bold">
+            <th>Date</th>
+            <th colspan="2" class="text-center">Partnership</th>
+            <th>Score</th>
+            <th class="d-none d-lg-block">Event</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var vmEntry in Model.Entries)
+        {
+            @Html.Partial(MVC.SeventyPercentClub.Views._SeventyPercentClubEntry, vmEntry)
+        }
+        </tbody>
+    </table>
+</div>

@@ -4,10 +4,10 @@ namespace Bradgate.SeventyClub.Domain
 {
     public class SeventyPercentClub
     {
-        public SeventyPercentClub()
+        public SeventyPercentClub(IReadOnlyList<SeventyPercentClubEntry> entries)
         {
-            Entries = new List<SeventyPercentClubEntry>();
+            Entries = entries;
         }
-        public IList<SeventyPercentClubEntry> Entries { get; }
+        public IReadOnlyList<SeventyPercentClubEntry> Entries { get; }
     }
 }

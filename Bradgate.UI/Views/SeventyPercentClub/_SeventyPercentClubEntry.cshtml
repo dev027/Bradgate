@@ -1,0 +1,22 @@
+﻿@using Bradgate.General.Extensions.DateTimeExtensions
+@model Bradgate.UI.ViewModels.SeventyPercentClub.Index.VmEntry
+
+@helper Player(string name, bool isVisitor)
+{
+    if (isVisitor)
+    {
+        <em>@name</em>
+    }
+    else
+    {
+        @name
+    }
+}
+
+<tr>
+    <td>@Model.Date.ToDD_MMM_YYYY()</td>
+    <td>@Player(Model.Player1, Model.IsPlayer1Visitor)</td>
+    <td>@Player(Model.Player2, Model.IsPlayer2Visitor)</td>
+    <td>@Model.Score%</td>
+    <td class="d-none d-lg-block">@Model.SessionDescription</td>
+</tr>

@@ -1,4 +1,4 @@
-﻿@model Bradgate.UI.ViewModels.SeventyPercentClub.HoldersViewModel
+﻿@model Bradgate.UI.ViewModels.SeventyPercentClub.Index.SeventyPercentClubViewModel
 
 <div class="content-wrapper">
     <div class="content-heading">
@@ -9,7 +9,13 @@
     </div>
     <div class="row">
         <div class="col-xl-6 offset-xl-3">
-            @Html.Partial(MVC.SeventyPercentClub.Views.ViewNames._HoldersCard, Model)
+            @Html.Partial(MVC.SeventyPercentClub.Views.ViewNames._HoldersCard, Model.VmHolders)
         </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            @Html.Partial(MVC.SeventyPercentClub.Views.ViewNames._SeventyPercentClubEntries, Model.VmEntries)
+        </div>
+
     </div>
 </div>
